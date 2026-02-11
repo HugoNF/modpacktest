@@ -1,0 +1,49 @@
+# Minecraft Saves - Ne pas versionner les mondes
+saves/
+
+# Logs et crash reports
+logs/
+crash-reports/
+
+# Fichiers de cache et temporaires
+usercache.json
+usernamecache.json
+
+# Données de carte Xaero (générées par le jeu)
+xaero/
+XaeroWaypoints_BACKUP*/
+
+# Configuration de Chunky (tâches de pré-génération)
+config/chunky/tasks/
+
+# Fichiers de verrouillage
+**/.lock
+
+# Télémétrie
+logs/telemetry/
+
+# Fichiers spécifiques à CurseForge
+.curseclient
+minecraftinstance.json
+
+# Options personnelles du joueur
+options.txt
+
+# Quickplay (liens de lancement rapide)
+Quickplay/
+
+# Répertoires de sortie et build
+run/
+out/
+build/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Données de session
+*.json_old
+*.json_new
